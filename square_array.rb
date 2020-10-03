@@ -1,5 +1,5 @@
 def square_array(array)
-  array.each |ele| do
+  array.each do |ele|
     mewo = ele**2
     puts mewo
   end
